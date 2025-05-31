@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -102,10 +103,12 @@
                 <div class="input-group">
                     <label for="mr_sph">MR_sph (D):</label>
                     <input id="mr_sph" type="number" step="any">
+		  <div class="note">Range: -7.0 to -0.5</div>
                 </div>
                 <div class="input-group">
                     <label for="mr_cyl">MR_cyl (D):</label>
                     <input id="mr_cyl" type="number" step="any">
+		  <div class="note">Range: -3.0 to 0.0</div>
                 </div>
                 <div class="input-group">
                     <label for="mr_axis">MR_axis:</label>
@@ -115,14 +118,17 @@
                 <div class="input-group">
                     <label for="pupil_size">Pupil_size (mm):</label>
                     <input id="pupil_size" type="number" step="any">
+		  <div class="note">Range: 1.6 to 5.7</div>
                 </div>
                 <div class="input-group">
                     <label for="k_astig">K_astig (D):</label>
                     <input id="k_astig" type="number" step="any">
+		  <div class="note">Range: 0.0 to 3.4</div>
                 </div>
                 <div class="input-group">
                     <label for="wtw">WTW (mm):</label>
                     <input id="wtw" type="number" step="any">
+		  <div class="note">Range: 10.7 to 13.0</div>
                 </div>
             </div>
             <button onclick="calculateValues()">Calculate</button>
@@ -139,3 +145,5 @@
     </div>
 </body>
 </html>
+
+
